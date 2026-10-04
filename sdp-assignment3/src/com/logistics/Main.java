@@ -8,13 +8,11 @@ public class Main {
         Shipment parcel = new StandardParcel(dhl);
         parcel.send("Book");
 
-        parcel.setCarrier(dhl);
+        parcel.setCarrier(ups);
         parcel.send("Book");
 
         Shipment express = new ExpressParcel(ups);
         express.send("Laptop");
-
-        
 
     }
 }
