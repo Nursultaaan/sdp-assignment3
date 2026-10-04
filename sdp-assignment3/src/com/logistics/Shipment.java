@@ -1,13 +1,13 @@
 package com.logistics;
 
 public abstract class Shipment {
-    protected DeliveryCarrirer carrier;
+    protected DeliveryCarrier carrier;
 
-    public Shipment(DeliveryCarrirer carrier) {
+    public Shipment(DeliveryCarrier carrier) {
         this.carrier = carrier;
     }
 
-    public  void SetCarrier(DeliveryCarrirer carrier) {
+    public  void SetCarrier(DeliveryCarrier carrier) {
         this.carrier = carrier;
     }
 

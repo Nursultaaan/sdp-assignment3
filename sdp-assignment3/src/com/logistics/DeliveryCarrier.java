@@ -1,5 +1,5 @@
 package com.logistics;
 
-public interface DeliveryCarrirer {
+public interface DeliveryCarrier {
     void deliver(String item);
 }
