@@ -7,7 +7,7 @@ public abstract class Shipment {
         this.carrier = carrier;
     }
 
-    public  void SetCarrier(DeliveryCarrier carrier) {
+    public  void setCarrier(DeliveryCarrier carrier) {
         this.carrier = carrier;
     }
 
